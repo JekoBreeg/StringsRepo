@@ -1,0 +1,46 @@
+/*This colors all h1 headers in gold*/
+h1 {
+    color: gold;
+}
+/*This colors all paragraphs gold*/
+p {
+    color: gold;
+}
+/*This effects any buttons I have on my webpage. I have capitalized the words, underlined them, centered them, made them bold, as well as colored them and the background of the button*/
+button {
+    background-color: gold;
+    color: darkred;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: underline;
+}
+/*These are for the body section of my webpage. I have centered the items in the body and all content such as strings and numbers. I've also made sure everything is a uniform height and color.*/
+body { 
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+/*These effect the container with the palindrome checker in it, aside from the buttons. I have capitalized, centered, etc. As well as colored the words and the background of the container.*/
+.container {
+    position: relative;
+    text-decoration: wavy;
+    text-transform: capitalize;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    padding: 20px;
+    color: gold;
+    background-color: rebeccapurple;
+    border-radius: 10px;
+    box-shadow: inset;
+}
+/*This effects the image I've put on my webpage. It was far too large to load at first, so I had to resize it to fit onto the age and load properly. I chose 300px because it is a nice, uniform size for this webpage.*/
+img {
+    width: 300px;
+    height: auto;
+}

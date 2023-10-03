@@ -1,0 +1,34 @@
+<!--Ben Breeg Guzzetta-->
+<!-- This is the basic info/structure for an html page. After typing "!" you can click and it fill out the foundation for you; the type of document you are coding, as well as all the meta data such as language, character set, etc.-->
+<!DOCTYPE html>
+<html lang="en">
+    <!--This is the header section, where you put things like the meta data, the title and sometimes an h1 and/or h2, etc.-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--This is the title of my webpage, it shows up on the tab at the very top of the webpage-->
+    <title>Breeg's Palindrome Checker</title>
+    <!--This is the link to my css page, where I make everything look pretty and smoother for the user-->
+    <link rel="stylesheet" type="text/css" href="Pally.css">
+</head>
+<!--This is the body section of the webpage. This is where the majority of your webpage will be coded. Here I have a header for my pally checker, as well as the input box, the button to test your word, as well as the link to the JavaScript portion of the webpage-->
+<body>
+    <!-- The divider for my palindrome container. I've created a container for the pally checker, mostly to make it easier to resize and color and whatnot in the css page. Containers tend to make things neater and tidier. -->
+    <div class="container">
+        <h1>Palindrome Checker</h1>
+        <label for="wordInput">Enter a word:</label>
+        <input type="text" id="wordInput" placeholder="Enter a word">
+        <!--This is my button to test the users word to see if it is a palindrome or not-->
+        <button onclick="checkPalindrome()">Check</button>
+        <p id="result"></p>
+        <button onclick="reset()">Try Another Word</button>
+    </div>
+<!-- My image container with the source URL of the image and a description in case the image doesn't load properly. Again, the container mostly just helps me do stuff to the image a little easier on the css page-->
+    <div class="imageContainer">
+        <img src="https://i.imgflip.com/1klw9t.jpg" alt="Willy Wonka Palindrome Meme">
+    </div>
+<!-- This is the link to the JavaScript portion on my webpage-->
+    <script src="Pally.js"></script>
+    <!-- These signify the end of the body tag as well as the entire webpage I am coding.-->
+</body>
+</html>
